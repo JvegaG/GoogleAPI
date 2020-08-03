@@ -1,0 +1,34 @@
+<resources>
+      <!-- LoginTheme Style-->
+    <style name="LoginTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/colorMateLigthBlue</item>
+        <item name="colorPrimaryDark">@color/colorMateDarkBlue</item>
+        <item name="colorAccent">@color/colorlightBlack</item>
+
+        <!-- Enable transition between activities -->
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <!-- Launcher Style-->
+    <style name="Launcher" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+    <!-- fullScreen Style -->
+    <style name="fullScreenDialogTheme" parent="Theme.AppCompat.Light.DialogWhenLarge">
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/Animation.AppCompat.Dialog</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <!-- Check button theme -->
+    <style name="checkBoxStyle" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/colorMateDarkBlue</item>
+        <item name="android:textColorSecondary">@android:color/darker_gray</item>
+    </style>
+
+</resources>

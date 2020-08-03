@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">GoogleAPI</string>
+    <string name="consultas_online">Consultas Médicas\nOnline</string>
+    <string name="icono_de_app">icono de app</string>
+
+    <!-- Login View -->
+    <string name="welcome">Bienvenido!</string>
+    <string name="descrip_login">Consultas médicas online\ndonde sea que estes</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="log_in">Iniciar Sesión</string>
+    <string name="forgot_password_question">¿Olvidaste tu contraseña?</string>
+    <string name="registrate">Regístrate</string>
+    <string name="no_tienes_cuenta">¿No tienes cuenta?</string>
+    <string name="sign_in_google">Iniciar sesión con Google</string>
+
+    <!-- Register View -->
+    <string name="create_account">Creación de Cuenta</string>
+    <string name="n_doc_de_identidad">N° doc. de identidad</string>
+    <string name="n_de_celular">N° de celular</string>
+    <string name="txt_permisos">Acepto los <b><u><font color='#1A4299'>Terminos y condiciones</font></u></b>
+        \ny las <b><u><font color='#1A4299'>Políticas de uso de datos personales</font></u></b></string>
+    <string name="txt_help">¿Necesitas ayuda?</string>
+
+    <!-- forgot password, verification code & reset password Views -->
+    <string name="forgot_password_title">Olvidaste tu\nContraseña</string>
+    <string name="question_forgotpass_email">¿Olvidaste tu constraseña?\nDescuida, la recuperaremos para ti.\nPor favor, ingresa tu correo electrónico</string>
+    <string name="question_forgotpass_sms">¿Olvidaste tu constraseña?\nDescuida, la recuperaremos para ti.\nPor favor, ingresa tu número de celular</string>
+    <string name="text_try_sms">Intentar por mensaje SMS</string>
+    <string name="text_try_email">Intentar por correo electrónico</string>
+    <string name="text_btn_reset_pass">Reiniciar Contraseña</string>
+    <string name="txt_btn_create_account">Crear Cuenta</string>
+    <string name="verification_code">Código de\nverificación</string>
+    <string name="resend_code">Reenviar código</string>
+    <string name="txt_question_verify_code">Por favor, ingrese los 4 digitos enviados\na example@gmail.com</string>
+    <string name="txt_title_reset_pass">Reinicio de\ncontraseña</string>
+    <string name="txt_question_reset_pass">Por favor, ingrese su nueva contraseña.\nLea algunos consejos para crear una\ncontraseña segura</string>
+    <string name="new_pass">Nueva Contraseña</string>
+    <string name="descrip_backbutton">image back button</string>
+</resources>
